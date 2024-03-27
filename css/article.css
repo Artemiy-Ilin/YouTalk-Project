@@ -1,0 +1,395 @@
+body {
+    font-family: Montserrat, sans-serif;;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333333;
+    margin-top: 32px;
+}
+
+@media screen and (min-width: 414px) {
+    .title {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .title {
+        font-size: 48px;
+    }
+}
+
+.author {
+    font-size: 14px;
+    font-weight: 400;
+    color: #494949;
+}
+
+.author__name {
+    display: inline-block;
+    }
+.author__date {
+    display: inline-block;
+    margin-left: 20px;
+}
+.author__self {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.image {
+    margin-top: 16px;
+}
+
+.content__title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.content__items {
+    font-size: 16px;
+    color: #333333;
+    text-decoration: underline;
+}
+
+.quote {
+    padding-top: 40px;
+    background-color: #F3F7FE;
+    border-radius: 16px;
+}
+
+.quote__content {
+    padding: 16px;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    color: #333333;
+}
+
+.quote__author {
+    padding: 16px;
+    padding-top: 2px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.section-1__title {
+    padding-top: 16px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.section-1__content {
+    padding-top: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #333333;
+}
+
+.section-2__title {
+    padding: 16px;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.section-2__items {
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.section-3__img {
+    padding: 16px;
+}
+
+.section-3__title {
+    padding: 16px;
+    padding-top: 0;
+    color: #868686;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.section-3__text {
+    padding: 16px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.quote2 {
+    background-image: url('imsges/png/quote2.png');
+    padding: 16px;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    align-items: center;
+}
+
+.section-4 {
+    padding: 16px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section-5__text {
+    padding: 16px;
+    color: #333333;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.section-6 {
+    padding: 16px;
+    background-color: #FEFAEC;
+    border-radius: 16px;
+}
+
+.section-6__title {
+    padding: 16px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.section-6__text {
+    padding: 16px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 5000;
+}
+
+.section-7__title {
+    padding: 16px;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.section-7__text {
+    padding: 16px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section-8__text {
+    padding: 16px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section-9 {
+    background-color: #FFF3EB;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.section-9__title {
+    padding: 16px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.section-9__text {
+    padding: 16px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section-10__text {
+    padding: 16px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section-11__text {
+    padding: 16px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section-11__rain {
+    text-align: center;
+}
+
+.section-12 {
+    padding: 16px;
+    background-color: #E6F0FD;
+    border-radius: 16px;
+}
+
+.section-12__title {
+    padding: 16px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.section-12__text {
+    padding: 16px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section-13 {
+    padding-top: 16px;
+    background-color: #E6F0FD;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.section-13__img {
+    text-align: center;
+}
+
+.section-13__title {
+    padding-top: 27px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.section-13__text {
+    padding-top: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    text-align: center;
+}
+
+.section-13__buttonn {
+    padding-top: 24px;
+}
+
+.section-13__button {
+    background-color: #35B3A9;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 12px 16px;
+    width: 219px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+
+.section-14 {
+    background-color: #EFF5FB;
+    border-radius: 16px;
+    border: 1px;
+}
+
+.section-14__foto {
+    padding-top: 24px;
+    text-align: center;
+}
+
+#s14-title-1 {
+    padding: 0;
+    color: #333333;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#s14-title-2 {
+    padding: 0;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#s14-title-3 {
+    padding: 0;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.section-14__hr {
+    width: 80%;
+    color: #DEDEDE;
+}
+
+.section-14__list__title {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.section-14__list__items {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.gift {
+    padding-top: 16px;
+    width: 288px;
+}
+
+.section-15 {
+    padding-top: 16px;
+    filter: drop-shadow(0 30 50 #EFF5FB);
+    border-radius: 24px;
+    border: 1px;
+    border-color: #DEDEDE;
+}
+
+.section-15__title {
+    padding: 20px;
+    color: #2963A3;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.section-15__text {
+    padding: 16px;
+    color: #011632;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.section-15__price {
+    padding: 16px;
+    color: #333333;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.section-15__buttonn {
+    padding: 16px;
+}
+
+.section-15__button {
+    background-color: #35B3A9;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 12px 16px;
+    width: 108px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
